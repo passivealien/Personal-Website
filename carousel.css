@@ -1,0 +1,104 @@
+* {box-sizing: border-box;}
+
+html{
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header{
+	position:center;
+	padding-top:12px;
+
+}
+h4{
+	text-align:center;
+	font-size:50px;
+}
+body {
+	font-family: Georgia;
+	height:100%;
+	color: rgb(197, 164, 109);
+	text-shadow:1px 1px black;
+	width:1000px;
+	margin:auto;
+	background-color: rgb(111, 111, 111 , 0.5);
+}
+h2{
+	font-size:100px;
+	text-shadow:4px 4px black;
+}
+.information{
+	width:1000px;
+	position:center;
+	border-radius:30px 30px 30px 0px;
+
+}
+article{
+	width:25%;
+	padding:5px;
+	float:left;
+}
+a:hover{
+	color:white;
+}
+a{
+	text-shadow:2px 2px black;
+}
+.art{
+	background-image:transparent;
+	height:300px;
+	overflow:auto;
+}
+body > footer {
+	background-image:transparent;
+	clear: both;
+	color: rgb(197, 164, 109);
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	border-radius:3px 3px 3px 3px;	
+	padding-top:70px;
+}
+
+a{
+	color: rgb(197, 164, 109);
+}
+
+p{
+	margin:20px;
+	text-indent: 10px;
+}
+img {
+	vertical-align: middle;
+	border-radius:30px 30px 30px 30px;
+	box-shadow: 5px 5px 5px black;
+}
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@-media only screen and (max-width: 300px) 
+{
+  .text {font-size: 11px}
+}
